@@ -21,8 +21,18 @@
           <span class="relative inline-flex rounded-full h-3 w-3 bg-pink-500"></span>
         </span>
         <span>Connected to DatoCMS, receiving live updates!</span>
+        &emsp;
+        <button @click="subscribe = !subscribe" class="bg-gray-500 hover:bg-gray-700 text-white font-bold px-2 rounded">
+          Pause
+        </button>
       </div>
-      <div v-else>Connection closed</div>
+      <div v-else>
+        Connection closed
+        &emsp;
+        <button @click="subscribe = !subscribe" class="bg-gray-500 hover:bg-gray-700 text-white font-bold px-2 rounded">
+          Follow the stream
+        </button>
+      </div>
     </div>
 
     <div v-if="error" class="max-w-screen-sm my-12 mx-auto">
