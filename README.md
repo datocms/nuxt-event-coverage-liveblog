@@ -3,6 +3,7 @@
 👉 [Visit the DatoCMS homepage](https://www.datocms.com) or see [What is DatoCMS?](#what-is-datocms)
 
 ---
+
 <!--datocms-autoinclude-header end-->
 
 This is a [Nuxt](https://nuxt.com/) project demonstrating the use of DatoCMS [Real-time Updates API](https://www.datocms.com/docs/real-time-updates-api).
